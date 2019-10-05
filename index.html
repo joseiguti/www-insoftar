@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Scrolling Nav - Start Bootstrap Template</title>
+
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/scrolling-nav.css" rel="stylesheet">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<script type="text/javascript" src="js/js.js"></script>
+
+<body id="page-top">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+		id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">Insoftar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link js-scroll-trigger"
+						href="#register">Register</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger"
+						href="#records">Records</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="bg-secondary text-white">
+		<div class="container text-center">
+			<h1>User register</h1>
+			<p class="lead">Users register fro the website</p>
+			<!-- Form register for  users -->
+			<div class="container text-left">
+				<form onsubmit="return false">
+					<input type="hidden" id="register_id">
+					<div class="form-group">
+						<label for="register_name">First name:</label> <input type="text"
+							class="form-control" id="register_name" aria-describedby=""
+							placeholder="Example, José Ignacio">
+					</div>
+					<div class="form-group">
+						<label for="register_lastname">Last name:</label> <input
+							type="text" class="form-control" id="register_lastname"
+							aria-describedby="" placeholder="Example, Gutiérrez Guzmán">
+					</div>
+					<div class="form-group">
+						<label for="register_identification">Identification:</label> <input
+							type="text" class="form-control" id="register_identification"
+							aria-describedby="" placeholder="Example, 11226452">
+					</div>
+					<div class="form-group">
+						<label for="register_email">Email:</label> <input type="email"
+							class="form-control" id="register_email" aria-describedby=""
+							placeholder="Example, jose.gutierrez@osezno-framework.org">
+					</div>
+					<div class="form-group">
+						<label for="register_phone">Phone:</label> <input type="text"
+							class="form-control" id="register_phone" aria-describedby=""
+							placeholder="Example, 3012695565">
+					</div>
+
+					<button type="button" class="btn btn-light" id="button_save">Save</button>
+					<button type="button" class="btn btn-light" id="button_cancel">Cancel</button>
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<section id="records">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto">
+					<h2>Records</h2>
+					<table class="table" id="register_records">
+						<thead>
+							<tr>
+								<th scope="col">#</th>
+								<th scope="col">Nombres</th>
+								<th scope="col">Apellidos</th>
+								<th scope="col">Cedula</th>
+								<th scope="col">Correo</th>
+								<th scope="col">Teléfono</th>
+								<th scope="col">Edit</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1"
+		role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalCenterTitle">Message</h5>
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body" id="content_message"></div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Accept</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="py-5 bg-dark">
+		<div class="container">
+			<p class="m-0 text-center text-white">Copyright &copy; Your
+				Website 2019</p>
+		</div>
+		<!-- /.container -->
+	</footer>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Custom JavaScript for this theme -->
+	<script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
