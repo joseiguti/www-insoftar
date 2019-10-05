@@ -1,3 +1,5 @@
+ Summary on video: https://youtu.be/J9oJCTfVfM4
+
 After to clone the project enter into project directory and then run the php server.
 
 php -S 0.0.0.0:8080 -t public
