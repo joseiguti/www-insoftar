@@ -1,4 +1,4 @@
-let uri = 'http://api.insoftar.localhost'
+let uri = 'http://0.0.0.0:8082'
 
 let url = '/api/users'
 	
